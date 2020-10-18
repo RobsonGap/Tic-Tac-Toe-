@@ -1,5 +1,22 @@
-div {
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 600px;
+  height: 600px;
+}
+
+.grid div {
   width: 200px;
   height: 200px;
   background-color: green;
+}
+
+.playerX {
+  background-image: url('cross.png')
+}
+
+.playerO {
+  background-image: url('circle.png') 
+
 }
