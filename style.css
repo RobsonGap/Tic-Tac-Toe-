@@ -2,14 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 600px;
-  height: 600px;
+  width: 610px;
+  height: 610px;
+  background-color: black;
 }
 
 .grid div {
   width: 200px;
   height: 200px;
-  background-color: green;
+  background-color: white;
+  margin-bottom: 5px;
 }
 
 .playerX {
